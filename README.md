@@ -1,5 +1,6 @@
 # InfluxDB
 Python script does the following tasks:
+Protobuf has been used to Serialize and Deserialise data.
 
 	1)Subscribes to the Sensor topic and appends value to the Influx Database. These values are used by Chronograf to publish to the webserver for graphical display.
 
